@@ -26,13 +26,15 @@
     22 => 'Facade\\Ignition\\IgnitionServiceProvider',
     23 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
     24 => 'Fruitcake\\Cors\\CorsServiceProvider',
-    25 => 'Laravel\\Tinker\\TinkerServiceProvider',
-    26 => 'Carbon\\Laravel\\ServiceProvider',
-    27 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
-    28 => 'App\\Providers\\AppServiceProvider',
-    29 => 'App\\Providers\\AuthServiceProvider',
-    30 => 'App\\Providers\\EventServiceProvider',
-    31 => 'App\\Providers\\RouteServiceProvider',
+    25 => 'Laravel\\Sail\\SailServiceProvider',
+    26 => 'Laravel\\Sanctum\\SanctumServiceProvider',
+    27 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    28 => 'Carbon\\Laravel\\ServiceProvider',
+    29 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
+    30 => 'App\\Providers\\AppServiceProvider',
+    31 => 'App\\Providers\\AuthServiceProvider',
+    32 => 'App\\Providers\\EventServiceProvider',
+    33 => 'App\\Providers\\RouteServiceProvider',
   ),
   'eager' => 
   array (
@@ -49,12 +51,13 @@
     10 => 'Facade\\Ignition\\IgnitionServiceProvider',
     11 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
     12 => 'Fruitcake\\Cors\\CorsServiceProvider',
-    13 => 'Carbon\\Laravel\\ServiceProvider',
-    14 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
-    15 => 'App\\Providers\\AppServiceProvider',
-    16 => 'App\\Providers\\AuthServiceProvider',
-    17 => 'App\\Providers\\EventServiceProvider',
-    18 => 'App\\Providers\\RouteServiceProvider',
+    13 => 'Laravel\\Sanctum\\SanctumServiceProvider',
+    14 => 'Carbon\\Laravel\\ServiceProvider',
+    15 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
+    16 => 'App\\Providers\\AppServiceProvider',
+    17 => 'App\\Providers\\AuthServiceProvider',
+    18 => 'App\\Providers\\EventServiceProvider',
+    19 => 'App\\Providers\\RouteServiceProvider',
   ),
   'deferred' => 
   array (
@@ -178,6 +181,8 @@
     'translation.loader' => 'Illuminate\\Translation\\TranslationServiceProvider',
     'validator' => 'Illuminate\\Validation\\ValidationServiceProvider',
     'validation.presence' => 'Illuminate\\Validation\\ValidationServiceProvider',
+    'Laravel\\Sail\\Console\\InstallCommand' => 'Laravel\\Sail\\SailServiceProvider',
+    'Laravel\\Sail\\Console\\PublishCommand' => 'Laravel\\Sail\\SailServiceProvider',
     'command.tinker' => 'Laravel\\Tinker\\TinkerServiceProvider',
   ),
   'when' => 
@@ -216,6 +221,9 @@
     array (
     ),
     'Illuminate\\Validation\\ValidationServiceProvider' => 
+    array (
+    ),
+    'Laravel\\Sail\\SailServiceProvider' => 
     array (
     ),
     'Laravel\\Tinker\\TinkerServiceProvider' => 
